@@ -1,0 +1,24 @@
+pane	main	1	:mars	0	:	1	:/home/mars	1	bash	:
+pane	main	2	:root	1	:*Z	1	:/home/mars	0	bash	:sudo -i
+pane	main	2	:root	1	:*Z	2	:/home/mars	1	bash	:sudo -i
+pane	main	3	:Vim	0	:Z	1	:/home/mars	0	vim	:sudo -i
+pane	main	3	:Vim	0	:Z	2	:/home/mars	1	ssh	:ssh admin@marspeng_DS
+pane	main	4	:DSM	0	:Z	1	:/home/mars	1	ssh	:ssh admin@marspeng_DS
+pane	main	4	:DSM	0	:Z	2	:/home/mars	0	ssh	:ssh admin@marspeng_DS
+pane	main	5	:DSM Vim	0	:Z	1	:/home/mars	1	ssh	:ssh admin@marspeng_DS
+pane	main	5	:DSM Vim	0	:Z	2	:/home/mars	0	ssh	:ssh admin@marspeng_DS
+pane	main	6	:CHROOT	0	:-Z	1	:/home/mars	1	bash	:sudo -i
+pane	main	6	:CHROOT	0	:-Z	2	:/home/mars	0	vim	:sudo -i
+pane	main	7	:MST Stress	0	:	1	:/home/mars	0	ssh	:ssh admin@192.168.11.243
+pane	main	7	:MST Stress	0	:	2	:/home/mars	1	ssh	:ssh admin@192.168.14.10
+pane	main	8	:QC Stress	0	:	1	:/home/mars	0	ssh	:ssh -p 38 admin@10.11.52.202
+pane	main	8	:QC Stress	0	:	2	:/home/mars	1	ssh	:ssh root@10.11.52.202 -p 33
+window	main	1	0	:	6190,190x55,0,0,30
+window	main	2	1	:*Z	7662,190x55,0,0{94x55,0,0,21,95x55,95,0,3}
+window	main	3	0	:Z	6148,190x55,0,0{96x55,0,0,4,93x55,97,0,5}
+window	main	4	0	:Z	7f54,190x55,0,0{95x55,0,0,25,94x55,96,0,7}
+window	main	5	0	:Z	7f57,190x55,0,0{95x55,0,0,35,94x55,96,0,9}
+window	main	6	0	:-Z	5658,190x55,0,0[190x27,0,0,10,190x27,0,28,17]
+window	main	7	0	:	fb98,190x55,0,0{94x55,0,0,37,95x55,95,0,48}
+window	main	8	0	:	fb98,190x55,0,0{94x55,0,0,39,95x55,95,0,40}
+state	main	

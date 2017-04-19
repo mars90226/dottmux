@@ -1,0 +1,20 @@
+pane	0	1	:bash	0	:	1	:/home/mars	1	bash	:
+pane	0	2	:/synosrc/packages	0	:	1	:/home/mars	1	bash	:sudo -i
+pane	0	2	:/synosrc/packages	0	:	2	:/home/mars	0	vim	:sudo -i
+pane	0	2	:/synosrc/packages	0	:	3	:/home/mars	0	bash	:sudo -i
+pane	0	3	:/atnoaex/curr	0	:	1	:/home/mars	1	bash	:sudo -i
+pane	0	3	:/atnoaex/curr	0	:	2	:/home/mars	0	bash	:sudo -i
+pane	0	4	:DSM	0	:	1	:/home/mars	1	ssh	:ssh admin@marspeng_DS
+pane	0	4	:DSM	0	:	2	:/home/mars	0	ssh	:ssh admin@marspeng_DS
+pane	0	4	:DSM	0	:	3	:/home/mars	0	ssh	:ssh admin@marspeng_DS
+pane	0	5	:CHROOT	1	:*Z	1	:/synosrc/packages/build_env/ds.x64-6.1	0	bash	:sudo -i
+pane	0	5	:CHROOT	1	:*Z	2	:/home/mars	1	bash	:sudo -i
+pane	0	5	:CHROOT	1	:*Z	3	:/synosrc/test2/build_env/ds.x64-6.1	0	bash	:sudo -i
+pane	0	6	:bash	0	:-	1	:/home/mars	1	bash	:sudo -i
+window	0	1	0	:	c2be,190x55,0,0,1
+window	0	2	0	:	97c7,190x55,0,0{95x55,0,0,2,94x55,96,0[94x27,96,0,3,94x27,96,28,4]}
+window	0	3	0	:	d76c,190x55,0,0{95x55,0,0,5,94x55,96,0,6}
+window	0	4	0	:	d1e8,190x55,0,0{87x55,0,0,7,102x55,88,0[102x27,88,0,25,102x27,88,28,9]}
+window	0	5	1	:*Z	3c36,190x55,0,0[190x24,0,0,10,190x30,0,25{94x30,0,25,11,95x30,95,25,12}]
+window	0	6	0	:-	e198,190x55,0,0,29
+state	0	

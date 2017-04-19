@@ -1,0 +1,22 @@
+pane	0	1	:man	0	:	1	:/usr/share/man	1	man	:man getpwnam
+pane	0	2	:/synosrc/packages	1	:*	1	:/home/mars	1	bash	:sudo -i
+pane	0	2	:/synosrc/packages	1	:*	2	:/home/mars	0	bash	:sudo -i
+pane	0	3	:vim	0	:-	1	:/home/mars	1	vim	:sudo -i
+pane	0	4	:DSM	0	:	1	:/home/mars	0	ssh	:ssh admin@marspeng_DS
+pane	0	4	:DSM	0	:	2	:/home/mars	1	ssh	:ssh admin@marspeng_DS
+pane	0	4	:DSM	0	:	3	:/home/mars	0	ssh	:ssh admin@marspeng_DS
+pane	0	5	:CHROOT	0	:Z	1	:/synosrc/packages/build_env/ds.x64-6.1	0	bash	:sudo -i
+pane	0	5	:CHROOT	0	:Z	2	:/home/mars	1	bash	:sudo -i
+pane	0	5	:CHROOT	0	:Z	3	:/synosrc/test2/build_env/ds.x64-6.1	0	bash	:sudo -i
+pane	0	6	:bash	0	:	1	:/home/mars	1	bash	:sudo -i
+pane	0	6	:bash	0	:	2	:/home/mars	0	bash	:sudo -i
+pane	0	7	:/atnoaex/curr	0	:	1	:/home/mars	1	bash	:sudo -i
+pane	0	7	:/atnoaex/curr	0	:	2	:/home/mars	0	bash	:sudo -i
+window	0	1	0	:	6197,190x55,0,0,56
+window	0	2	1	:*	ff62,190x55,0,0{95x55,0,0,48,94x55,96,0,4}
+window	0	3	0	:-	e194,190x55,0,0,44
+window	0	4	0	:	d1e8,190x55,0,0{87x55,0,0,7,102x55,88,0[102x27,88,0,25,102x27,88,28,9]}
+window	0	5	0	:Z	bc37,190x55,0,0[190x24,0,0,10,190x30,0,25{94x30,0,25,52,95x30,95,25,12}]
+window	0	6	0	:	1662,190x55,0,0[190x27,0,0,29,190x27,0,28,46]
+window	0	7	0	:	d76c,190x55,0,0{95x55,0,0,5,94x55,96,0,6}
+state	0	

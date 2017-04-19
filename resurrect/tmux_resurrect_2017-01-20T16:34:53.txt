@@ -1,0 +1,16 @@
+pane	0	1	:bash	1	:*	1	:/home/mars	1	bash	:
+pane	0	2	:/synosrc/packages	0	:	1	:/home/mars	1	bash	:sudo -i
+pane	0	2	:/synosrc/packages	0	:	2	:/home/mars	0	bash	:sudo -i
+pane	0	3	:vim	0	:-Z	1	:/home/mars	1	vim	:sudo -i
+pane	0	3	:vim	0	:-Z	2	:/home/mars	0	ssh	:ssh admin@marspeng_DS
+pane	0	4	:DSM	0	:Z	1	:/home/mars	1	ssh	:ssh admin@marspeng_DS
+pane	0	4	:DSM	0	:Z	2	:/home/mars	0	ssh	:ssh admin@marspeng_DS
+pane	0	5	:ssh	0	:	1	:/home/mars	1	ssh	:ssh admin@marspeng_DS
+pane	0	6	:CHROOT	0	:	1	:/home/mars	1	bash	:sudo -i
+window	0	1	1	:*	c2be,190x55,0,0,1
+window	0	2	0	:	613f,190x55,0,0{96x55,0,0,2,93x55,97,0,3}
+window	0	3	0	:-Z	6148,190x55,0,0{96x55,0,0,4,93x55,97,0,5}
+window	0	4	0	:Z	51d0,190x55,0,0{89x55,0,0,6,100x55,90,0,7}
+window	0	5	0	:	c2c5,190x55,0,0,8
+window	0	6	0	:	c2c6,190x55,0,0,9
+state	0	
