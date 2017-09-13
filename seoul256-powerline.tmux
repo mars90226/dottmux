@@ -24,8 +24,8 @@ setw -g window-status-separator ""
 setw -g window-status-bg "colour233"
 set -g status-left "#[fg=colour233,bg=colour65] #S #[fg=colour65,bg=colour233,nobold,nounderscore,noitalics]"
 set -g status-right "#[fg=colour239,bg=colour233,nobold,nounderscore,noitalics]#[fg=colour253,bg=colour239] %Y-%m-%d  %H:%M #[fg=colour65,bg=colour239,nobold,nounderscore,noitalics]#[fg=colour239,bg=colour65]ϟ#(acpi --battery | awk '{print $4}' | sed 's/%,$//') "
-setw -g window-status-format "#[fg=colour65,bg=colour233] #I #[fg=colour65,bg=colour233] #W "
-setw -g window-status-current-format "#[fg=colour233,bg=colour65,nobold,nounderscore,noitalics]#[fg=colour252,bg=colour65] #I #[fg=colour233,bg=colour65,nobold,nounderscore,noitalics]#[fg=colour233,bg=colour65] #W #[fg=colour65,bg=colour233,nobold,nounderscore,noitalics]"
+setw -g window-status-format '#[fg=colour65,bg=colour233] #I #[fg=colour65,bg=colour233] #{pane_current_command} #(pwd="#{pane_current_path}"; echo ${pwd####*/}) '
+setw -g window-status-current-format '#[fg=colour233,bg=colour65,nobold,nounderscore,noitalics]#[fg=colour252,bg=colour65] #I #[fg=colour233,bg=colour65,nobold,nounderscore,noitalics]#[fg=colour233,bg=colour65] #{pane_current_command} #(pwd="#{pane_current_path}"; echo ${pwd####*/}) #[fg=colour65,bg=colour233,nobold,nounderscore,noitalics]'
 
 # seoul256 copy mode colors
 setw -g mode-fg "#000000"
