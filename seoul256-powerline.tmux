@@ -23,7 +23,7 @@ setw -g window-status-activity-fg "colour101"
 setw -g window-status-separator ""
 setw -g window-status-bg "colour233"
 set -g status-left "#[fg=colour233,bg=colour101] #S #[fg=colour101,bg=colour233,nobold,nounderscore,noitalics]"
-set -g status-right "#[fg=colour101,bg=colour233,nobold,nounderscore,noitalics]#[fg=colour233,bg=colour101] %Y-%m-%d  %H:%M #[fg=colour202,bg=colour101,nobold,nounderscore,noitalics]#[fg=colour220,bg=colour202]ϟ#(acpi --battery | awk '{print $4}' | sed 's/%,$//') "
+set -g status-right "#[fg=colour101,bg=colour233,nobold,nounderscore,noitalics]#[fg=colour233,bg=colour101] %Y-%m-%d  %H:%M #[fg=colour202,bg=colour101,nobold,nounderscore,noitalics]#[fg=colour229,bg=colour202]ϟ#(acpi --battery | awk '{print $4}' | sed 's/%,$//') "
 setw -g window-status-format '#[fg=colour101,bg=colour233] #I #[fg=colour101,bg=colour233] #{pane_current_command} #(pwd="#{pane_current_path}"; echo ${pwd####*/}) '
 setw -g window-status-current-format '#[fg=colour233,bg=colour101,nobold,nounderscore,noitalics]#[fg=colour229,bg=colour101] #I #[fg=colour233,bg=colour101,nobold,nounderscore,noitalics]#[fg=colour233,bg=colour101] #{pane_current_command} #(pwd="#{pane_current_path}"; echo ${pwd####*/}) #[fg=colour101,bg=colour233,nobold,nounderscore,noitalics]'
 
